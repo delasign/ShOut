@@ -21,6 +21,21 @@
 		7269FDFB19603D5C00B5FF5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FDDD19603D5C00B5FF5B /* UIKit.framework */; };
 		7269FE0319603D5C00B5FF5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7269FE0119603D5C00B5FF5B /* InfoPlist.strings */; };
 		7269FE0519603D5D00B5FF5B /* ShOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE0419603D5D00B5FF5B /* ShOutTests.m */; };
+		7269FE1719603F7500B5FF5B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE0E19603F7500B5FF5B /* AudioToolbox.framework */; };
+		7269FE1819603F7500B5FF5B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE0F19603F7500B5FF5B /* CFNetwork.framework */; };
+		7269FE1919603F7500B5FF5B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1019603F7500B5FF5B /* CoreLocation.framework */; };
+		7269FE1A19603F7500B5FF5B /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1119603F7500B5FF5B /* libz.1.1.3.dylib */; };
+		7269FE1B19603F7500B5FF5B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1219603F7500B5FF5B /* MobileCoreServices.framework */; };
+		7269FE1C19603F7500B5FF5B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1319603F7500B5FF5B /* QuartzCore.framework */; };
+		7269FE1D19603F7500B5FF5B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1419603F7500B5FF5B /* Security.framework */; };
+		7269FE1E19603F7500B5FF5B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1519603F7500B5FF5B /* StoreKit.framework */; };
+		7269FE1F19603F7500B5FF5B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE1619603F7500B5FF5B /* SystemConfiguration.framework */; };
+		7269FE2119603F8500B5FF5B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FE2019603F8500B5FF5B /* Parse.framework */; };
+		7269FE291960451E00B5FF5B /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7269FE281960451E00B5FF5B /* LaunchImage.png */; };
+		7269FE2C19604D2700B5FF5B /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE2B19604D2700B5FF5B /* IntroViewController.m */; };
+		7269FE2F19609C9800B5FF5B /* PinDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE2E19609C9800B5FF5B /* PinDropViewController.m */; };
+		7269FE3219609D3A00B5FF5B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE3119609D3A00B5FF5B /* MapViewController.m */; };
+		7269FE3519609D6100B5FF5B /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE3419609D6100B5FF5B /* InboxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,25 @@
 		7269FE0019603D5C00B5FF5B /* ShOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShOutTests-Info.plist"; sourceTree = "<group>"; };
 		7269FE0219603D5C00B5FF5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7269FE0419603D5D00B5FF5B /* ShOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShOutTests.m; sourceTree = "<group>"; };
+		7269FE0E19603F7500B5FF5B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7269FE0F19603F7500B5FF5B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7269FE1019603F7500B5FF5B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7269FE1119603F7500B5FF5B /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		7269FE1219603F7500B5FF5B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7269FE1319603F7500B5FF5B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7269FE1419603F7500B5FF5B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7269FE1519603F7500B5FF5B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7269FE1619603F7500B5FF5B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7269FE2019603F8500B5FF5B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		7269FE281960451E00B5FF5B /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		7269FE2A19604D2700B5FF5B /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		7269FE2B19604D2700B5FF5B /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		7269FE2D19609C9800B5FF5B /* PinDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinDropViewController.h; sourceTree = "<group>"; };
+		7269FE2E19609C9800B5FF5B /* PinDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinDropViewController.m; sourceTree = "<group>"; };
+		7269FE3019609D3A00B5FF5B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		7269FE3119609D3A00B5FF5B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7269FE3319609D6100B5FF5B /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		7269FE3419609D6100B5FF5B /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7269FE2119603F8500B5FF5B /* Parse.framework in Frameworks */,
+				7269FE1719603F7500B5FF5B /* AudioToolbox.framework in Frameworks */,
+				7269FE1819603F7500B5FF5B /* CFNetwork.framework in Frameworks */,
+				7269FE1919603F7500B5FF5B /* CoreLocation.framework in Frameworks */,
+				7269FE1A19603F7500B5FF5B /* libz.1.1.3.dylib in Frameworks */,
+				7269FE1B19603F7500B5FF5B /* MobileCoreServices.framework in Frameworks */,
+				7269FE1C19603F7500B5FF5B /* QuartzCore.framework in Frameworks */,
+				7269FE1D19603F7500B5FF5B /* Security.framework in Frameworks */,
+				7269FE1E19603F7500B5FF5B /* StoreKit.framework in Frameworks */,
+				7269FE1F19603F7500B5FF5B /* SystemConfiguration.framework in Frameworks */,
 				7269FDDC19603D5C00B5FF5B /* CoreGraphics.framework in Frameworks */,
 				7269FDDE19603D5C00B5FF5B /* UIKit.framework in Frameworks */,
 				7269FDDA19603D5C00B5FF5B /* Foundation.framework in Frameworks */,
@@ -101,6 +145,16 @@
 		7269FDD819603D5C00B5FF5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7269FE2019603F8500B5FF5B /* Parse.framework */,
+				7269FE0E19603F7500B5FF5B /* AudioToolbox.framework */,
+				7269FE0F19603F7500B5FF5B /* CFNetwork.framework */,
+				7269FE1019603F7500B5FF5B /* CoreLocation.framework */,
+				7269FE1119603F7500B5FF5B /* libz.1.1.3.dylib */,
+				7269FE1219603F7500B5FF5B /* MobileCoreServices.framework */,
+				7269FE1319603F7500B5FF5B /* QuartzCore.framework */,
+				7269FE1419603F7500B5FF5B /* Security.framework */,
+				7269FE1519603F7500B5FF5B /* StoreKit.framework */,
+				7269FE1619603F7500B5FF5B /* SystemConfiguration.framework */,
 				7269FDD919603D5C00B5FF5B /* Foundation.framework */,
 				7269FDDB19603D5C00B5FF5B /* CoreGraphics.framework */,
 				7269FDDD19603D5C00B5FF5B /* UIKit.framework */,
@@ -115,8 +169,7 @@
 				7269FDE819603D5C00B5FF5B /* AppDelegate.h */,
 				7269FDE919603D5C00B5FF5B /* AppDelegate.m */,
 				7269FDEB19603D5C00B5FF5B /* Main.storyboard */,
-				7269FDEE19603D5C00B5FF5B /* ViewController.h */,
-				7269FDEF19603D5C00B5FF5B /* ViewController.m */,
+				7269FE22196042C900B5FF5B /* UI */,
 				7269FDF119603D5C00B5FF5B /* Images.xcassets */,
 				7269FDE019603D5C00B5FF5B /* Supporting Files */,
 			);
@@ -150,6 +203,24 @@
 				7269FE0119603D5C00B5FF5B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7269FE22196042C900B5FF5B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7269FDEE19603D5C00B5FF5B /* ViewController.h */,
+				7269FDEF19603D5C00B5FF5B /* ViewController.m */,
+				7269FE2A19604D2700B5FF5B /* IntroViewController.h */,
+				7269FE2B19604D2700B5FF5B /* IntroViewController.m */,
+				7269FE281960451E00B5FF5B /* LaunchImage.png */,
+				7269FE2D19609C9800B5FF5B /* PinDropViewController.h */,
+				7269FE2E19609C9800B5FF5B /* PinDropViewController.m */,
+				7269FE3019609D3A00B5FF5B /* MapViewController.h */,
+				7269FE3119609D3A00B5FF5B /* MapViewController.m */,
+				7269FE3319609D6100B5FF5B /* InboxViewController.h */,
+				7269FE3419609D6100B5FF5B /* InboxViewController.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7269FE291960451E00B5FF5B /* LaunchImage.png in Resources */,
 				7269FDF219603D5C00B5FF5B /* Images.xcassets in Resources */,
 				7269FDE419603D5C00B5FF5B /* InfoPlist.strings in Resources */,
 				7269FDED19603D5C00B5FF5B /* Main.storyboard in Resources */,
@@ -251,7 +323,11 @@
 			files = (
 				7269FDF019603D5C00B5FF5B /* ViewController.m in Sources */,
 				7269FDEA19603D5C00B5FF5B /* AppDelegate.m in Sources */,
+				7269FE2F19609C9800B5FF5B /* PinDropViewController.m in Sources */,
+				7269FE3219609D3A00B5FF5B /* MapViewController.m in Sources */,
 				7269FDE619603D5C00B5FF5B /* main.m in Sources */,
+				7269FE2C19604D2700B5FF5B /* IntroViewController.m in Sources */,
+				7269FE3519609D6100B5FF5B /* InboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Oscardelahera/Developer,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShOut/ShOut-Prefix.pch";
 				INFOPLIST_FILE = "ShOut/ShOut-Info.plist";
@@ -389,6 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Oscardelahera/Developer,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShOut/ShOut-Prefix.pch";
 				INFOPLIST_FILE = "ShOut/ShOut-Info.plist";

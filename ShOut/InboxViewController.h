@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  InboxViewController.h
 //  ShOut
 //
 //  Created by Oscar de la Hera Gomez on 29/06/2014.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Parse/Parse.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface InboxViewController : UIViewController
 
 @end
