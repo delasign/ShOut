@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "ShoutMapAnnotation.h"
 
-@interface PinDropViewController : UIViewController
+@interface PinDropViewController : UIViewController <CLLocationManagerDelegate,MKMapViewDelegate, UIPickerViewDelegate,UITextFieldDelegate>
 
 @end

@@ -41,7 +41,6 @@
     _introPageControl.currentPage = 0;
     _introPageControl.transform = CGAffineTransformMakeRotation(M_PI_2);
     
-    NSLog(@"%ld",(long)_introPageControl.currentPage);
     
     [self.view addSubview:_introPageControl];
     [_introPageControl addTarget:self action:@selector(introPageChange:) forControlEvents:UIControlEventValueChanged];
@@ -66,13 +65,19 @@
     swipeDown.direction = UISwipeGestureRecognizerDirectionDown;
     [self.view addGestureRecognizer:swipeDown];
     
+    // NAVIGATION CONTROLLER MODS
+    
+    self.navigationItem.hidesBackButton = YES;
+    
+    self.navigationController.navigationBar.hidden = YES;
+    
 }
 
 // Gesture recognizers
 
 - (void)swipeLeft:(UIGestureRecognizer *)gestureRecognizer
 {
-    [self performSegueWithIdentifier:@"introSwipeOut" sender:self];
+    [self performSegueWithIdentifier:@"introSwipeOut" sender:nil];
 }
 
 - (void)swipeUp:(UIGestureRecognizer *)gestureRecognizer

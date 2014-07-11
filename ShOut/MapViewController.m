@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 
 @interface MapViewController ()
+//@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 

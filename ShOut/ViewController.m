@@ -11,7 +11,13 @@
 @interface ViewController ()
 
 @property (strong,nonatomic) NSString *uniqueIdentifier;
-@property (weak, nonatomic) IBOutlet UIImageView *logoImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *logoImage;
+
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *signUpButton;
+
+- (IBAction)Login:(UIButton *)sender;
+- (IBAction)SignUp:(UIButton *)sender;
 
 @end
 
@@ -24,47 +30,21 @@
     
     _uniqueIdentifier = [UIDevice currentDevice].identifierForVendor.UUIDString;
     
-    _logoImage.image = [UIImage imageNamed:@"LaunchImage.png"];
+   // _logoImage.image = [UIImage imageNamed:@"LaunchImage.png"];
+    
+    self.navigationItem.hidesBackButton = YES;
     
     PFUser *currentUser = [PFUser currentUser];
     
     if (currentUser)
     {
-        NSLog(@"%@",currentUser.username);
-        
-        [NSTimer scheduledTimerWithTimeInterval:4.0
-                                         target:self
-                                       selector:@selector(introSegue)
-                                       userInfo:0 repeats:NO];
+        [self performSegueWithIdentifier:@"introScreen" sender:nil];
     }
-    else
-    {
-        PFUser *user = [PFUser user];
-        user.username = [NSString stringWithFormat:@"%@",_uniqueIdentifier];
-        
-        user.password = [NSString stringWithFormat:@"%@",_uniqueIdentifier];
-        
-        [user signUpInBackground];
-        
-        NSLog(@"NEW USER ! ID:%@", user.username);
-        
-        [NSTimer scheduledTimerWithTimeInterval:4.0 target:self selector:@selector(numberSegue) userInfo:0 repeats:NO];
-    }
+    
     
 }
 
 
-
-
-- (void)numberSegue
-{
-    [self performSegueWithIdentifier:@"phoneNumber" sender:nil];
-}
-
-- (void)introSegue
-{
-    [self performSegueWithIdentifier:@"introScreen" sender:self];
-}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -76,5 +56,15 @@
     }
 }
 
+
+- (IBAction)Login:(UIButton *)sender
+{
+    [self performSegueWithIdentifier:@"login" sender:nil];
+}
+
+- (IBAction)SignUp:(UIButton *)sender
+{
+    [self performSegueWithIdentifier:@"signUp" sender:nil];
+}
 
 @end

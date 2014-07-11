@@ -1,26 +1,31 @@
 //
-//  InboxViewController.m
+//  TabBarViewController.m
 //  ShOut
 //
-//  Created by Oscar de la Hera Gomez on 29/06/2014.
+//  Created by Oscar de la Hera Gomez on 01/07/2014.
 //  Copyright (c) 2014 Oscar de la Hera. All rights reserved.
 //
 
-#import "InboxViewController.h"
+#import "TabBarViewController.h"
 
-@interface InboxViewController ()
+@interface TabBarViewController ()
 
 @end
 
-@implementation InboxViewController
-
+@implementation TabBarViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.selectedIndex = 2;
 }
 
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 /*
 #pragma mark - Navigation
